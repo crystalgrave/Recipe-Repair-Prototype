@@ -78,7 +78,7 @@
                         <div class="card-text">
                             <div class="form-group">
                                 <label for="description">Short Description:</label>
-                                <textarea class="form-control" id="description" placeholder="Enter the recipe description... (Max 250 Words)" rows="3"></textarea>
+                                <textarea class="form-control" id="description" placeholder="Enter the recipe description... (Max 250 Characters)" rows="3" maxlength="250"></textarea>
                             </div>
                         </div>
                     </div>
@@ -120,16 +120,16 @@
                         <div class="input-group">
                             <input class="form-control" placeholder="0" type="number"  id="preptime">
                             <div class="input-group-append">
-                                <span class="input-group-text">min</span>
+                                <label class="input-group-text" for="preptime">min</label>
                             </div>
                         </div>
                     </div>
                     <div class="form-group col-lg-6">
                         <label for="cooktime">Cook Time:</label>
                         <div class="input-group">
-                            <input class="form-control" placeholder="0" type="number" id="cooktime">
+                            <input class="form-control custom-select" placeholder="0" type="number" id="cooktime">
                             <div class="input-group-append">
-                                <span class="input-group-text"  >min</span>
+                                <label class="input-group-text" for="cooktime">min</label>
                             </div>
                         </div>
                     </div>
